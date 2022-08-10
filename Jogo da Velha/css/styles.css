@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+body{
+    font-family: "Nunito";
+    background-color: #1c1c1c;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h4, h6{ 
+    color: #fff;
+}
+
+#tela-escura{
+    width: 250px;
+    height: 125px;
+    opacity: 0.95;
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    display: none;
+    border-radius: 10px;
+    transition: 2000ms;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    background-color: rgba(12, 3, 29, 0.486);
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #000000;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300pt;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #77a8e767;
+    transition: 200ms;
+}
+
+.celula:hover{
+    transition: 200ms;
+    background-color: #8bbaf7b9;
+}
+
+.btnContainer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    color: #fff;
+    background-color: #1c1c1c;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1px;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #383838;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5.5px;
+    margin: 1.3px;
+    transition: 500ms;
+    text-decoration: none;
+}
+
